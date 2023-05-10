@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="CoarseFineLocation">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MystudyApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Ex1LoginActivity" />
+        <activity android:name=".Ex1JoinActivity" />
+        <activity android:name=".Ex1JoinInfoActivity" />
+        <activity android:name=".Ex1Member" />
+        <activity android:name=".Ex2CalcActivity" />
+        <activity android:name=".Ex3AniActivity" />
+        <activity android:name=".EX4GifActivity" />
+        <activity android:name=".Ex5DataActivity" />
+        <activity android:name=".Ex5DataReceiveActivity" />
+        <activity android:name=".Ex6SpinnerActivity" />
+        <activity android:name=".Ex7SwitchActivity" />
+        <activity android:name=".Ex8WebViewActivity" />
+        <activity android:name=".Ex9VideoViewActivity" />
+        <activity android:name=".Ex10MediaActivity" />
+        <activity android:name=".Ex11GalleryView" />
+        <activity android:name=".Ex12SoccergameActivity" />
+        <activity android:name=".Ex13HadlerActivity" />
+        <activity android:name=".Ex14SharedPreferencesActivity" />
+        <activity android:name=".Ex15SharedPreferences2Activity" />
+        <activity android:name=".Ex16FrameLayoutActivity" />
+        <activity android:name=".Ex17NumberListActivity" />
+        <activity android:name=".Ex18ListViewActivity" />
+        <activity android:name=".Ex19NumberListView" />
+        <activity android:name=".Ex20FriendListActivity" />
+        <activity android:name=".Ex20AddFriendActivity" />
+        <activity android:name=".Ex20DelFriendActivity" />
+        <activity android:name=".Ex20EditFriendActivity" />
+        <activity android:name=".Ex21GpsMapEx" />
+        <activity android:name=".GoogleMapSearchActivity" />
+        <activity android:name=".Ex22DDayActivity" />
+        <activity android:name=".Ex23TimerEx" />
+        <activity android:name=".Ex24FriendAddActivity" />
+        <activity android:name=".Ex24FriendDelActivity" />
+        <activity android:name=".Ex24FriendEditActivity" />
+        <activity android:name=".Ex24FriendsListActivity" />
+        <activity android:name=".Ex25RecyclerViewEx" />
+        <activity android:name=".Ex27RecyclerViewEx2" />
+        <activity android:name=".Ex28FriendsRecyclerView" />
+        <activity android:name=".Ex28AddFriendActivity" />
+        <activity android:name=".Ex28EditFriendActivity" />
+        <activity android:name=".Ex28DelFriendActivity" />
+        <activity android:name=".Ex29FragmentLayout" />
+        <activity android:name=".Ex30webPhpMain"/>
+        <activity android:name=".Ex30webPhpJoin"/>
+        <activity android:name=".Ex30webPhpLogin"/>
+    </application>
+
+</manifest>

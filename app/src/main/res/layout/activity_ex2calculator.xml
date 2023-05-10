@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="2">
+
+    <ImageView
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/title"
+        android:id="@+id/imageView2"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_weight="6">
+
+
+    -<LinearLayout
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_weight="1">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/num1"
+        android:id="@+id/ivNum1"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/num2"
+        android:id="@+id/ivNum2"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/num3"
+        android:id="@+id/ivNum3"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/plus"
+        android:id="@+id/ivPlus"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_weight="1">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/num4"
+        android:id="@+id/ivNum4"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/num5"
+        android:id="@+id/ivNum5"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/num6"
+        android:id="@+id/ivNum6"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/min"
+        android:id="@+id/ivMin"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_weight="1">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/num7"
+        android:id="@+id/ivNum7"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/num8"
+        android:id="@+id/ivNum8"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/num9"
+        android:id="@+id/ivNum9"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/mul"
+        android:id="@+id/ivMul"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/clear"
+        android:id="@+id/ivClear"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/num0"
+        android:id="@+id/ivNum0"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/result"
+        android:id="@+id/ivResult"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/div"
+        android:id="@+id/ivDiv"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="2">
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="2.5"/>
+
+
+   <LinearLayout
+       android:layout_height="0dp"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_weight="5">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:text="결과 : "
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:id="@+id/etResult"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:inputType="number"
+        android:ems="10"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="2.5"/>
+
+</LinearLayout>
+
+</LinearLayout>

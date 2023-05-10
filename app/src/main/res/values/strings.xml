@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MystudyApp</string>
+    <string name="format_today">input_date</string>
+</resources>
